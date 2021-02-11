@@ -7,8 +7,6 @@ const jwtSchema = new mongoose.Schema({
         required:true,
         trim:true,
         min:3,
-        
-        unique:true,
         index:true,
         lowercase:true,
     },
